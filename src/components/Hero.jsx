@@ -13,7 +13,7 @@ function Hero() {
           </h1>
         </div>
 
-        <div className="flex justify-center gap-4 sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+        <div className="lg:w-4/5 mx-auto flex justify-center gap-3">
             
             <HeroCard src={reactLogo} />
             <img src={dottedLine} className="w-1/12 object-contain	" alt="" />
