@@ -1,5 +1,7 @@
 import HeroCard from "./HeroCard"
-import reactLogo from '../assets/react.svg'
+import Img1 from '../assets/solution-1.png'
+import Img2 from '../assets/solution-6.png'
+import Img3 from '../assets/solution-7.png'
 import dottedLine from '../assets/dotted-lines.png'
 
 function Footer() {
@@ -10,11 +12,11 @@ function Footer() {
 
                 <div className="lg:w-4/5 mx-auto flex justify-center gap-3">
 
-                    <HeroCard src={reactLogo} />
+                    <HeroCard src={Img1} />
                     <img src={dottedLine} className="w-1/12 object-contain	" alt="" />
-                    <HeroCard src={reactLogo} />
+                    <HeroCard src={Img2} />
                     <img src={dottedLine} className="w-1/12 object-contain	" alt="" />
-                    <HeroCard src={reactLogo} />
+                    <HeroCard src={Img3} />
 
 
                 </div>

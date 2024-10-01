@@ -6,11 +6,11 @@ function Header() {
                 <a className="flex title-font font-bold items-center mb-4 md:mb-0">
                     <span className="ml-3 text-2xl">Green Protocol</span>
                 </a>
-                <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <a className="mr-5 hover:text-gray-900">Problem</a>
-                    <a className="mr-5 hover:text-gray-900">Solution</a>
-                    <a className="mr-5 hover:text-gray-900">Business Model</a>
-                    <a className="mr-5 hover:text-gray-900">Profit Distribution</a>
+                <nav className="md:ml-auto flex flex-wrap text-center items-center text-base justify-center">
+                    <a className="w-20 mr-5 hover:font-bold hover:cursor-pointer">Problem</a>
+                    <a className="w-20 mr-5 hover:font-bold hover:cursor-pointer">Solution</a>
+                    <a className="w-32 mr-5 hover:font-bold hover:cursor-pointer">Business Model</a>
+                    <a className="w-36 mr-5 hover:font-bold hover:cursor-pointer">Profit Distribution</a>
                 </nav>
             </div>
         </header>
